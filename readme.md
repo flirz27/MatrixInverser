@@ -20,6 +20,6 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 
 Using:
-./ MatrixInverter <N> <M> <your matrix> <precision>
+./ MatrixInverter N M your_matrix precision
 
 
