@@ -10,16 +10,16 @@ Prerequisites
 
 
 Installation
-# 1. Create a directory for build artifacts
+1. Create a directory for build artifacts
 mkdir build && cd build
 
-# 2. Generate build files 
+2. Generate build files 
 cmake -DCMAKE_BUILD_TYPE=Release ..
 
-# 3. Compile the project
+3. Compile the project
 make
 
-Using
+Using:
 ./ MatrixInverter <N> <M> <your matrix> <precision>
 
 
