@@ -32,8 +32,11 @@ sudo apt install cmake clang libgtest-dev
 ##bash
 
 git clone <https://github.com/flirz27/MatrixInverser.git>
+
 cd MatrixInverser
+
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
 cmake --build build
 
 -Executable: build/MatrixInverter
@@ -49,11 +52,13 @@ cd build && ctest --output-on-failure
 -Usage
 
 The program reads the matrix dimensions, precision, and entries from the command line:
-bash
+
+##bash
 
 ./MatrixInverter <N> <M> <precision> <a11> <a12> ... <aNM>
 
 Example — invert a 2×2 matrix with precision 10:
-bash
+
+##bash
 
 ./MatrixInverter 2 2 10 4 7 2 6
